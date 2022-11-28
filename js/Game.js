@@ -96,7 +96,7 @@ class Game {
       player.update();
     }
 
-    if(player.distance > 460 && passedFinish===false){
+    if(player.distance > 4500 && passedFinish===false){
       Player.updateFinishedPlayers();
       player.rank= finishedPlayers;
       player.update();
